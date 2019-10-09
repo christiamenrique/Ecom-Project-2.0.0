@@ -4,7 +4,7 @@
 * On this page, I am selling electronic products(tv, drones, speakers, etc..). I also have a contact page that allows the client to send a message..
 
 ### Installation
-Open terminal.
+* Open terminal.
 * git clone https://github.com/christiamenrique/Ecom-Project-2.0.0.git.
 * Once is clone node.js is required to operate the page. You must use npm install.
 * To start the application run React app using npm run start.
