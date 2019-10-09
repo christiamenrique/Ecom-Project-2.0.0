@@ -16,13 +16,13 @@ function Navegation(props) {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav header__nav-list">
                     <li className="nav-item">
-                        <Link to="/" className="header__nav-button nav-link btn btn-primary">Home</Link>
+                        <Link to="/" className="header__nav-button nav-link btn btn-success">Home</Link>
                     </li>
                     <li className="nav-item">
                         <Link to="/products" className="header__nav-button nav-link btn btn-success">Products</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/contact" className="header__nav-button nav-link btn btn-warning">Contact</Link>
+                        <Link to="/contact" className="header__nav-button nav-link btn btn-success">Contact</Link>
                     </li>
                 </ul>
                 {props.location.pathname === '/products' &&
